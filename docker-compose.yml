@@ -1,0 +1,58 @@
+version: '3.9'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./backend/wait-for-it.sh:/wait-for-it.sh:ro
+      - ./media:/app/media
+      - ./static:/app/staticfiles
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=mydb
+      - DB_USER=myuser
+      - DB_PASSWORD=mypassword
+      - DJANGO_SETTINGS_MODULE=backend.settings
+      - DJ_SECRET_KEY=django-insecure-hs9)_e=ru&lf5h(5&i$pqs=t487@+6h$d3byxyt
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - backend
+
+  db:
+    image: postgres:16
+    restart: always
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  nginx:
+    image: nginx:1.27-alpine
+    ports:
+      - "80:80"
+    depends_on:
+      - frontend
+      - backend
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./static:/static:ro
+      - ./media:/media:ro
+
+volumes:
+  postgres_data:
