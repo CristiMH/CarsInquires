@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className='bg-[#222732] font-muli'>
       <div className="sm:container sm:mx-auto px-[25px] pt-[100px] pb-[30px] flex flex-col gap-[30px]">
         <div className="flex flex-col items-center sm:flex-row sm:flex-wrap sm:justify-between gap-[40px]">
-          <img src={logoNoBg} alt="Orlando Classics Skyway" className='w-[140px]' />
-          <p className='text-white max-w-[265px] sm:text-start text-center'>At Orlando Classics Skyway, we don’t just offer classic cars – we offer experiences, nostalgia, and a connection to the past. Every vehicle in our collection is handpicked, thoroughly checked, and ready to hit the road or become a treasured part of your collection.</p>
+          <img src={logoNoBg} alt="Zoom Vintage Classics" className='w-[140px]' />
+          <p className='text-white max-w-[265px] sm:text-start text-center'>At Zoom Vintage Classics, we don’t just offer classic cars – we offer experiences, nostalgia, and a connection to the past. Every vehicle in our collection is handpicked, thoroughly checked, and ready to hit the road or become a treasured part of your collection.</p>
           <ul className='flex flex-wrap gap-[35px] text-[17px] max-w-[265px] text-white'>
             <li><Link to={'/search'} className='flex gap-[10px] items-center group'>
               <span className='w-[8px] h-[8px] rounded-full bg-[#d5ab63]'></span>
@@ -36,7 +36,7 @@ const Footer = () => {
             </a>
 
             <a href="mailto:" className="flex justify-center sm:justify-end gap-[10px] items-center text-white">
-              <p className='text-[17px]'>info@orlandoclassicsskyway.com</p>
+              <p className='text-[17px]'>info@zoomvintageclassics.com</p>
             </a>
 
             <a href="#" className="flex flex-col items-center sm:items-end text-white">
