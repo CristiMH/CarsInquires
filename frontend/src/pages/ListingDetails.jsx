@@ -191,7 +191,7 @@ const ListingDetails = () => {
     return (
         <>
             <Helmet>
-                <title>{`${listing?.title} | Orlando Classics Skyway`}</title>
+                <title>{`${listing?.title} | Zoom Vintage Classics`}</title>
                 <meta
                     name="description"
                     content={`For Sale: ${listing?.title}`}
