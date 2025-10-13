@@ -32,7 +32,7 @@ const ResponsiveMenu = ({ showRespMenu, setShowRespMenu }) => {
                 <IoMdClose onClick={() => { setShowRespMenu(false); }} className='text-3xl min-h-[30px] rounded-full p-[5px] ml-auto bg-[#d5ab63] hover:bg-[#735c36] hover:text-white transition-all duration-100 ease-in cursor-pointer'/>
                 
                 <NavLink to="/" end onClick={() => { setShowRespMenu(false); }} className={'w-[110px] mx-auto'}>
-                    <img src={logoNoBg} alt="Orlando Classics Skyway" className='w-[108px]' />
+                    <img src={logoNoBg} alt="Zoom Vintage Classics" className='w-[108px]' />
                 </NavLink>
                 
                 <ul className='flex flex-col font-muli mt-[15px]'>
@@ -76,7 +76,7 @@ const ResponsiveMenu = ({ showRespMenu, setShowRespMenu }) => {
 
                     <a href="mailto:" className="flex justify-end gap-[10px] items-center text-white mt-[15px] font-muli">
                         <IoMail  className="text-[#d5ab63]"/>
-                        <p className='text-[17px] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>info@orlandoclassicsskyway.com</p>
+                        <p className='text-[17px] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>info@zoomvintageclassics.com</p>
                     </a>
                 </div>
             </div >
