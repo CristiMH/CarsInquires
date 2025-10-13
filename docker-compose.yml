@@ -61,3 +61,6 @@ services:
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
     command: certonly --webroot -w /var/www/certbot --force-renewal --email obliamarta@gmail.com -d zoomvintageclassics.com --agree-tos
+
+volumes:
+  postgres_data:
