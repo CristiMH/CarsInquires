@@ -63,8 +63,8 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Orlando Classics Skyway | Classic Cars Dealership</title>
-        <meta name="description" content="Find your ideal dream car. Orlando Classics Skyway gives you the oportunity to buy your dream classic muscle car!" />
+        <title>Zoom Vintage Classics | Classic Cars Dealership</title>
+        <meta name="description" content="Find your ideal dream car. Zoom Vintage Classics gives you the oportunity to buy your dream classic muscle car!" />
       </Helmet>
 
       {/*Hero Section*/}
