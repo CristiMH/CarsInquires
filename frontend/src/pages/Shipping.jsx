@@ -5,8 +5,8 @@ const Shipping = () => {
     return (
         <>
             <Helmet>
-                <title>Shipping | Orlando Classics Skyway</title>
-                <meta name="description" content="Orlando Classics Skyway offers hassle-free, transparent, and dependable international shipping." />
+                <title>Shipping | Zoom Vintage Classics</title>
+                <meta name="description" content="Zoom Vintage Classics offers hassle-free, transparent, and dependable international shipping." />
             </Helmet>
             <section className='relative'>
                 <div className='absolute inset-0 bg-[url(/shipping.jpg)] bg-cover bg-center'></div>
@@ -22,7 +22,7 @@ const Shipping = () => {
 
             <section className="pt-[70px] sm:pt-[90px] pb-[100px] sm:container sm:mx-auto px-[10px] font-muli lg:grid lg:grid-cols-3 lg:grid-rows-1 gap-[50px]">
                 <div className="flex flex-col gap-[50px] lg:col-span-2">
-                    <p className='text-[20px] text-gray-500 font-[700]'>Orlando Classics Skyway offers hassle-free, transparent, and dependable international shipping.</p>
+                    <p className='text-[20px] text-gray-500 font-[700]'>Zoom Vintage Classics offers hassle-free, transparent, and dependable international shipping.</p>
 
                     <p className='text-gray-500'>No matter where you are in the world, we think your ideal vehicle should get to you without incident, safely, or securely. For this reason, we have established a reliable shipping procedure that makes both local and international delivery easy and completely transparent.</p>
 
