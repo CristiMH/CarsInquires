@@ -1,12 +1,14 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 echo "⏳ Aștept $DB_HOST:$DB_PORT..."
-/wait-for-it.sh "$DB_HOST" "$DB_PORT" --timeout=60 --strict -- echo "✅ DB e gata"
+/wait-for-it.sh "$DB_HOST:$DB_PORT" --timeout=60 --strict -- echo "✅ DB e gata"
+
+echo "⏳ Aștept 10 secunde..."
+sleep 10
 
 echo "🧩 Migrez baza de date..."
 python manage.py migrate --noinput
 
-# Collect static files
 echo "📦 Colectez fișierele statice..."
 python manage.py collectstatic --noinput
 
