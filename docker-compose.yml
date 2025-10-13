@@ -3,8 +3,7 @@ version: '3.9'
 services:
   backend:
     build: ./backend
-    ports:
-      - "8000:8000"
+    restart: unless-stopped
     volumes:
       - ./backend:/app
       - ./backend/wait-for-it.sh:/wait-for-it.sh:ro
@@ -23,8 +22,7 @@ services:
 
   frontend:
     build: ./frontend
-    ports:
-      - "3000:3000"
+    restart: unless-stopped
     environment:
       - NODE_ENV=production
     depends_on:
@@ -32,20 +30,20 @@ services:
 
   db:
     image: postgres:16
-    restart: always
+    restart: unless-stopped
     environment:
       POSTGRES_DB: mydb
       POSTGRES_USER: myuser
       POSTGRES_PASSWORD: mypassword
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
 
   nginx:
     image: nginx:1.27-alpine
+    restart: unless-stopped
     ports:
       - "80:80"
+      - "443:443"
     depends_on:
       - frontend
       - backend
@@ -53,6 +51,10 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./static:/static:ro
       - ./media:/media:ro
+      - certbot-www:/var/www/certbot
+      - certs:/etc/letsencrypt
 
 volumes:
   postgres_data:
+  certbot-www:
+  certs:
