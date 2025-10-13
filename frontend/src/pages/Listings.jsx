@@ -269,10 +269,10 @@ export default function Listings() {
     return (
         <>
             <Helmet>
-                <title>{`Listings | Orlando Classics Skyway`}</title>
+                <title>{`Listings | Zoom Vintage Classics`}</title>
                 <meta
                     name="description"
-                    content="Find your ideal dream car. Orlando Classics Skyway gives you the opportunity to buy your dream classic muscle car!"
+                    content="Find your ideal dream car. Zoom Vintage Classics gives you the opportunity to buy your dream classic muscle car!"
                 />
             </Helmet>
 
