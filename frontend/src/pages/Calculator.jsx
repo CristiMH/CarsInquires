@@ -127,7 +127,7 @@ const Calculator = () => {
     return (
         <>
             <Helmet>
-                <title>Loan Calculator | Orlando Classics Skyway</title>
+                <title>Loan Calculator | Zoom Vintage Classics</title>
                 <meta name="description" content="We offer 2.5% interest rate per year, with a minimum 10,000$ down payment." />
             </Helmet>
 
