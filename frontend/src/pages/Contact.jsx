@@ -137,7 +137,7 @@ const Contact = () => {
     return (
         <>
             <Helmet>
-                <title>Contact Us | Orlando Classics Skyway</title>
+                <title>Contact Us | Zoom Vintage Classics</title>
                 <meta
                     name="description"
                     content="Known for our dedication to quality and client pleasure, we take pride in being among the biggest and safest businesses that specialize in the selling of vintage automobiles."
@@ -157,7 +157,7 @@ const Contact = () => {
             <section className="pt-[70px] sm:pt-[90px] pb-[100px] sm:container sm:mx-auto px-[10px] font-muli lg:grid lg:grid-cols-2 lg:grid-rows-1 gap-[50px]">
                 <div className="flex flex-col gap-[50px]">
                     <p className='text-[20px] text-gray-500 font-[700]'>Known for our dedication to quality and client pleasure, we take pride in being among the biggest and safest businesses that specialize in the selling of vintage automobiles.</p>
-                    <p className='text-gray-500'>At Orlando Classics Skyway, we don’t just offer classic cars – we offer experiences, nostalgia, and a connection to the past. Every vehicle in our collection is handpicked, thoroughly checked, and ready to hit the road or become a treasured part of your collection.</p>
+                    <p className='text-gray-500'>At Zoom Vintage Classics, we don’t just offer classic cars – we offer experiences, nostalgia, and a connection to the past. Every vehicle in our collection is handpicked, thoroughly checked, and ready to hit the road or become a treasured part of your collection.</p>
 
                     <a href="#" className='text-[#222732] w-full max-w-[180px]'>1428 N Florida Ave Tampa, FL 33602 </a>
 
@@ -167,7 +167,7 @@ const Contact = () => {
 
                     <a href="mailto:" className="flex items-center gap-[10px] text-white -mt-[30px] font-muli w-full max-w-[280px]">
                         <IoMail className="text-[#d5ab63]" />
-                        <p className='text-[#222732] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>info@orlandoclassicsskyway.com</p>
+                        <p className='text-[#222732] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>info@zoomvintageclassics.com</p>
                     </a>
                 </div>
 
