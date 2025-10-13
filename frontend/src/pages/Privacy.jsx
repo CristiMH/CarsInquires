@@ -5,8 +5,8 @@ const Privacy = () => {
     return (
         <>
             <Helmet>
-                <title>Privacy Policy | Orlando Classics Skyway</title>
-                <meta name="description" content="Orlando Classics Skyway respects your privacy and is committed to protecting your personal information." />
+                <title>Privacy Policy | Zoom Vintage Classics</title>
+                <meta name="description" content="Zoom Vintage Classics Skyway respects your privacy and is committed to protecting your personal information." />
             </Helmet>
             <section className='relative'>
                 <div className='absolute inset-0 bg-[url(/shipping.jpg)] bg-cover bg-center'></div>
@@ -22,7 +22,7 @@ const Privacy = () => {
 
             <section className="pt-[70px] sm:pt-[90px] pb-[100px] sm:container sm:mx-auto px-[10px] font-muli lg:grid lg:grid-cols-3 lg:grid-rows-1 gap-[50px]">
                 <div className="flex flex-col gap-[50px] lg:col-span-2">
-                    <p className='text-[20px] text-gray-500 font-[600]'>Orlando Classics Skyway ("we," "our," or "us") is dedicated to safeguarding your personal data and values your privacy. When you visit our website, <a href="https://orlandoclassicsskyway.com" className='!text-black'>https://orlandoclassicsskyway.com</a>, we gather, use, disclose, and protect your information as described in this Privacy Policy, along with any associated services or features. <u>You accept the terms of this Privacy Policy by using our website.</u></p>
+                    <p className='text-[20px] text-gray-500 font-[600]'>Zoom Vintage Classics ("we," "our," or "us") is dedicated to safeguarding your personal data and values your privacy. When you visit our website, <a href="https://zoomvintageclassics.com" className='!text-black'>https://zoomvintageclassics.com</a>, we gather, use, disclose, and protect your information as described in this Privacy Policy, along with any associated services or features. <u>You accept the terms of this Privacy Policy by using our website.</u></p>
 
                     <div className="flex flex-col gap-[25px] text-gray-500">
                         <p className='text-[24px]'>1. Information We Collect</p>
@@ -179,7 +179,7 @@ const Privacy = () => {
                             </li>
                             <li className='flex gap-[10px] items-center group'>
                                 <span className='w-[8px] h-[8px] rounded-full bg-[#d5ab63]'></span>
-                                <p>To exercise your rights, please contact us at: <br /> <a href="mailto:">📧 info@orlandoclassicsskyway.com</a></p>
+                                <p>To exercise your rights, please contact us at: <br /> <a href="mailto:">📧 info@zoomvintageclassics.com</a></p>
                             </li>
                         </ul>
                     </div>
@@ -197,9 +197,9 @@ const Privacy = () => {
                     <div className="flex flex-col gap-[25px] text-gray-500">
                         <p className='text-[24px]'>10. Contact Us</p>
                         <p className='text-[16px]'>If you have questions about this Privacy Policy or how we handle your data, contact us at:
-                            <br /><b>Orlando Classics Skyway</b>
+                            <br /><b>Zoom Vintage Classics</b>
                             <br />📍 <a href="#">1428 N Florida Ave Tampa, FL 33602 </a>
-                            <br />📧 <a href="mailto:">info@orlandoclassicsskyway.com</a>
+                            <br />📧 <a href="mailto:">info@zoomvintageclassics.com</a>
                             <br />📞 <a href="tel:">+(333) 123 644 48</a></p>
                     </div>
                 </div>
