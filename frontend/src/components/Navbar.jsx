@@ -39,7 +39,7 @@ const Navbar = () => {
         <NavLink to="/" className="inline-block">
           <img
             src={logoNoBg}
-            alt="Orlando Classics Skyway"
+            alt="Zoom Vintage Classics"
             className={`${isTransparent ? 'h-[120px] lg:h-[145px]' : 'h-[80px]'}  rounded-[5px]`}
           />
         </NavLink>
