@@ -102,7 +102,7 @@ const Home = () => {
       <section className='sm:container sm:mx-auto flex flex-col gap-[5px] items-center justify-center py-[40px] px-[15px] font-muli'>
         <p className='text-[22px] text-[#d5ab63] text-center'>Handy picked</p>
         <p className='text-[38px] md:text-[60px] font-[900] mb-[15px] text-center text-[#222732]'>Newest Listings</p>
-        <div className="hidden lg:grid grid-cols-8 grid-rows-2 gap-4 min-h-[300px]">
+        <div className="hidden lg:grid grid-cols-8 grid-rows-2 gap-4 min-h-[100px]">
           {
             listings.length !== 0 &&
             <Link to={`/listing/${listings[0].title.toLowerCase().replace(/\s+/g, '-')}-${listings[0].id}`} className='shadow-md rounded-md flex flex-col overflow-hidden  w-full group col-span-4 row-span-2'>
