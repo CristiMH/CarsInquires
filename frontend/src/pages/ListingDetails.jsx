@@ -1,5 +1,4 @@
 import { useParams } from 'react-router';
-import { Helmet } from '@vuer-ai/react-helmet-async';
 import { useEffect, useState, useRef } from 'react';
 import api from '../api'
 import { Link } from 'react-router';
@@ -190,14 +189,6 @@ const ListingDetails = () => {
 
     return (
         <>
-            <Helmet>
-                <title>{`${listing?.title} | Zoom Vintage Classics`}</title>
-                <meta
-                    name="description"
-                    content={`For Sale: ${listing?.title}`}
-                />
-            </Helmet>
-
             <section className='pt-[121px] lg:pt-[119px] lg:pb-[17px] bg-[#222732]'>
                 <div className=" flex justify-center  h-full w-full ">
                     <div className='text-[14px] text-gray-400 font-muli tracking-wide text-center gap-[30px] hidden lg:flex z-[51]'>
