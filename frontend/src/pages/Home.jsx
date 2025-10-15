@@ -198,12 +198,12 @@ const Home = () => {
                     spaceBetween: 50,
                   },
                 }}
-                className="mySwiper min-h-[310px]"
+                className="mySwiper min-h-[310px] !h-full"
               >
                 {topMakes.map((item, idx) => {
                   if (item.id === activeMakeFilter.id) {
                     return item.limited_listings.map((newItem, idx) => (
-                      <SwiperSlide key={idx} className='w-full h-full'>
+                      <SwiperSlide key={idx} className='w-full !h-auto'>
                         <ListingCard listing={newItem} />
                       </SwiperSlide>
                     ));
