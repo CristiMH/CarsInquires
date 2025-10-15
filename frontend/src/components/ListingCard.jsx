@@ -2,12 +2,12 @@ import { Link } from 'react-router';
 
 const ListingCard = ({ listing }) => {
   return (
-    <Link to={`/listing/${listing.title.toLowerCase().replace(/\s+/g, '-')}-${listing.id}`} className='shadow-md rounded-md flex flex-col overflow-hidden  w-full group'>
-        <div className="bg-gray-200 min-h-[100px]">
+    <Link to={`/listing/${listing.title.toLowerCase().replace(/\s+/g, '-')}-${listing.id}`} className='shadow-md rounded-md flex flex-col overflow-hidden h-full  w-full group'>
+        <div className="bg-gray-200 min-h-[100px] h-full">
           <img 
                src={listing.listing_images[0].path} 
                alt={`${listing.make.name} ${listing.model.name} ${listing.year}`} 
-               className='w-full group-hover:scale-[1.1] z-14 transition-all duration-[0.7s] ease-in-out cursor-pointer'
+               className='group-hover:scale-[1.1] h-full z-14 transition-all duration-[0.7s] ease-in-out cursor-pointer relative top-1/2 left-1/2 w-full max-h-full object-cover transform -translate-x-1/2 -translate-y-1/2'
           />
         </div>
         <div className="bg-[#222732] px-[20px] py-[15px] flex flex-col gap-[10px] font-muli text-white z-[15]">
