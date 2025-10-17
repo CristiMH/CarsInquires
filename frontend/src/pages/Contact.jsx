@@ -159,15 +159,15 @@ const Contact = () => {
                     <p className='text-[20px] text-gray-500 font-[700]'>Known for our dedication to quality and client pleasure, we take pride in being among the biggest and safest businesses that specialize in the selling of vintage automobiles.</p>
                     <p className='text-gray-500'>At Zoom Vintage Classics, we don’t just offer classic cars – we offer experiences, nostalgia, and a connection to the past. Every vehicle in our collection is handpicked, thoroughly checked, and ready to hit the road or become a treasured part of your collection.</p>
 
-                    <a href="#" className='text-[#222732] w-full max-w-[180px]'>1428 N Florida Ave Tampa, FL 33602 </a>
+                    <a href="https://maps.app.goo.gl/TgJTz1A19MnYYKCq8" className='text-[#222732] w-full max-w-[180px]'>35th St Orlando, Florida</a>
 
                     <a href="tel:" className="flex items-center gap-[10px] text-[#222732] w-full max-w-[280px]">
-                        <p className='text-[30px] font-[900] '>+(333) <span className='text-[#d5ab63]'>123 644 48</span> </p>
+                        <p className='text-[30px] font-[900] '>+(333) <span className='text-[#d5ab63]'>123 456 78</span> </p>
                     </a>
 
-                    <a href="mailto:" className="flex items-center gap-[10px] text-white -mt-[30px] font-muli w-full max-w-[280px]">
+                    <a href="mailto:office@zoomvintageclassics.com" className="flex items-center gap-[10px] text-white -mt-[30px] font-muli w-full max-w-[280px]">
                         <IoMail className="text-[#d5ab63]" />
-                        <p className='text-[#222732] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>info@zoomvintageclassics.com</p>
+                        <p className='text-[#222732] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>office@zoomvintageclassics.com</p>
                     </a>
                 </div>
 
