@@ -1,4 +1,5 @@
 import { useParams } from 'react-router';
+import { Helmet } from '@vuer-ai/react-helmet-async';
 import { useEffect, useState, useRef } from 'react';
 import api from '../api'
 import { Link } from 'react-router';
