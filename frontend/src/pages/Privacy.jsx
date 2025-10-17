@@ -198,9 +198,9 @@ const Privacy = () => {
                         <p className='text-[24px]'>10. Contact Us</p>
                         <p className='text-[16px]'>If you have questions about this Privacy Policy or how we handle your data, contact us at:
                             <br /><b>Zoom Vintage Classics</b>
-                            <br />📍 <a href="#">1428 N Florida Ave Tampa, FL 33602 </a>
-                            <br />📧 <a href="mailto:">info@zoomvintageclassics.com</a>
-                            <br />📞 <a href="tel:">+(333) 123 644 48</a></p>
+                            <br />📍 <a href="https://maps.app.goo.gl/TgJTz1A19MnYYKCq8">35th St Orlando, Florida </a>
+                            <br />📧 <a href="mailto:office@zoomvintageclassics.com">office@zoomvintageclassics.com</a>
+                            <br />📞 <a href="tel:">+(333) 123 456 78</a></p>
                     </div>
                 </div>
                 <img src={office} alt="" className='rounded-xl mt-[50px] lg:mt-0' />
