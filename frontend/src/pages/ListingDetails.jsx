@@ -187,15 +187,24 @@ const ListingDetails = () => {
         }
     };
 
+    const title = listing ? `${listing.title} | Zoom Vintage Classics` : 'For Sale | Zoom Vintage Classics';
+    const description = listing ? listing.title : 'Find your ideal dream car. Zoom Vintage Classics offers the best collection of classic muscle cars!';
+    const image = listing && listing.listing_images.length > 0 ? listing.listing_images[0].path : 'https://zoomvintageclassics.com/assets/logoNoBg-ClutNe1u.png';
+
     return (
         <>
-            <section className='pt-[121px] lg:pt-[119px] lg:pb-[17px] bg-[#222732]'>
-                <div className=" flex justify-center  h-full w-full ">
-                    <div className='text-[14px] text-gray-400 font-muli tracking-wide text-center gap-[30px] hidden lg:flex z-[51]'>
-                        <Link to={'/home'}>Home</Link><p>/</p><Link to={'/search'}>Search</Link><p>/</p><Link to={`/search?make=${listing?.make.name.toLowerCase().replace(/\s+/g, '-')}`}>{listing?.make.name}</Link><p>/</p><Link to={`/search?make=${listing?.make.name.toLowerCase().replace(/\s+/g, '-')}&model=${listing?.model.name.toLowerCase().replace(/\s+/g, '-')}`}>{listing?.model.name}</Link><p>/</p><p className='text-[#d5ab63]'>{listing?.title}</p>
-                    </div>
-                </div>
-            </section>
+            <Helmet>
+                <title>{title}</title>
+                <meta name="description" content={description} />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content={title} />
+                <meta property="og:description" content={description} />
+                <meta property="og:image" content={image} />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={title} />
+                <meta name="twitter:description" content={description} />
+                <meta name="twitter:image" content={image} />
+            </Helmet>
 
             <section className="py-[60px] sm:py-[80px] px-[12px] sm:container flex flex-col gap-[35px] sm:mx-auto font-muli">
                 <div className=" xl:grid xl:grid-cols-12 xl:grid-rows-1 justify-between gap-[40px]">
