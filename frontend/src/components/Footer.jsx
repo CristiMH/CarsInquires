@@ -39,7 +39,7 @@ const Footer = () => {
               <p className='text-[17px]'>office@zoomvintageclassics.com</p>
             </a>
 
-            <a href="#" className="flex flex-col items-center sm:items-end text-white">
+            <a href="https://maps.app.goo.gl/TgJTz1A19MnYYKCq8" className="flex flex-col items-center sm:items-end text-white">
               <p className='text-[17px]'>35th St Orlando</p>
                 <p className='text-[17px]'>Florida</p>
             </a>
