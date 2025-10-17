@@ -32,16 +32,16 @@ const Footer = () => {
           </ul>
           <div className="flex flex-col gap-[30px] lg:ml-auto xl:ml-0">
             <a href="tel:" className="flex items-center gap-[10px] items-center text-white">
-              <p className='text-[30px] font-[900] '>+(333) <span className='text-[#d5ab63]'>123 644 48</span> </p>              
+              <p className='text-[30px] font-[900] '>+(333) <span className='text-[#d5ab63]'>123 456 78</span> </p>              
             </a>
 
-            <a href="mailto:" className="flex justify-center sm:justify-end gap-[10px] items-center text-white">
-              <p className='text-[17px]'>info@zoomvintageclassics.com</p>
+            <a href="mailto:office@zoomvintageclassics.com" className="flex justify-center sm:justify-end gap-[10px] items-center text-white">
+              <p className='text-[17px]'>office@zoomvintageclassics.com</p>
             </a>
 
             <a href="#" className="flex flex-col items-center sm:items-end text-white">
-              <p className='text-[17px]'>1428 N Florida Ave</p>
-                <p className='text-[17px]'>Tampa, FL 33602</p>
+              <p className='text-[17px]'>35th St Orlando</p>
+                <p className='text-[17px]'>Florida</p>
             </a>
           </div>
         </div>
