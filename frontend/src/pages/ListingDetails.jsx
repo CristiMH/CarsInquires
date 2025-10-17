@@ -207,6 +207,14 @@ const ListingDetails = () => {
                 <meta name="twitter:image" content={image} />
             </Helmet>
 
+            <section className='pt-[121px] lg:pt-[119px] lg:pb-[17px] bg-[#222732]'>
+                <div className=" flex justify-center  h-full w-full ">
+                    <div className='text-[14px] text-gray-400 font-muli tracking-wide text-center gap-[30px] hidden lg:flex z-[51]'>
+                        <Link to={'/home'}>Home</Link><p>/</p><Link to={'/search'}>Search</Link><p>/</p><Link to={`/search?make=${listing?.make.name.toLowerCase().replace(/\s+/g, '-')}`}>{listing?.make.name}</Link><p>/</p><Link to={`/search?make=${listing?.make.name.toLowerCase().replace(/\s+/g, '-')}&model=${listing?.model.name.toLowerCase().replace(/\s+/g, '-')}`}>{listing?.model.name}</Link><p>/</p><p className='text-[#d5ab63]'>{listing?.title}</p>
+                    </div>
+                </div>
+            </section>
+
             <section className="py-[60px] sm:py-[80px] px-[12px] sm:container flex flex-col gap-[35px] sm:mx-auto font-muli">
                 <div className=" xl:grid xl:grid-cols-12 xl:grid-rows-1 justify-between gap-[40px]">
                     <div className=" xl:col-span-8 flex flex-col gap-[45px] w-full">
