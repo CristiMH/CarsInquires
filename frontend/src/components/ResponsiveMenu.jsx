@@ -71,12 +71,12 @@ const ResponsiveMenu = ({ showRespMenu, setShowRespMenu }) => {
                 <div className="flex flex-col">
                     <a href="tel:" className="flex justify-end gap-[10px] items-center text-white mt-[50px] font-muli ">
                         <FaPhoneAlt className="text-[#d5ab63]"/>
-                        <p className='text-[17px] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>+(333) 123 644 48 </p>
+                        <p className='text-[17px] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>+(333) 123 456 78 </p>
                     </a>
 
-                    <a href="mailto:" className="flex justify-end gap-[10px] items-center text-white mt-[15px] font-muli">
+                    <a href="mailto:office@zoomvintageclassics.com" className="flex justify-end gap-[10px] items-center text-white mt-[15px] font-muli">
                         <IoMail  className="text-[#d5ab63]"/>
-                        <p className='text-[17px] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>info@zoomvintageclassics.com</p>
+                        <p className='text-[17px] transition-colors duration-100 ease-in hover:text-[#d5ab63]'>office@zoomvintageclassics.com</p>
                     </a>
                 </div>
             </div >
